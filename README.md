@@ -31,3 +31,19 @@ Data typically flows through four main stages within an organization:
 2. **Preparation:** Cleaning and organizing raw data, finding missing or duplicate values, and converting it into a structured format.
 3. **Exploration & Visualization:** Building dashboards and visualizing data to track changes or compare datasets.
 4. **Experimentation & Prediction:** Running experiments (e.g., A/B testing) and building predictive models (e.g., forecasting stock prices).
+
+### The Role of a Data Engineer
+Data engineers are primarily responsible for the **first step** of the workflow: ingesting and storing data. 
+* Their job is to deliver the correct data, in the right form, to the right people, as efficiently as possible.
+* They lay the groundwork for data analysts and data scientists. If data is scattered, corrupted, or difficult to access, subsequent analysis becomes impossible.
+* They develop, construct, test, and maintain architectures such as databases and large-scale processing systems to handle massive amounts of data.
+
+### Big Data & The 5 Vs
+With the advent of big data—driven by sensors, devices, social media, and enterprise systems—the demand for data engineers has surged. Big data is data so large and complex that traditional management methods are insufficient. 
+
+It is commonly characterized by the **Five Vs**:
+* **Volume:** The quantity of data points.
+* **Variety:** The type and nature of the data (text, image, video, audio).
+* **Velocity:** How fast the data is generated and processed.
+* **Veracity:** How trustworthy and accurate the sources are.
+* **Value:** How actionable and useful the data is.
