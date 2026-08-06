@@ -24,3 +24,9 @@ In this chapter, we shift our focus to data storage by exploring the three funda
 * **Extracting Value:** Unstructured data is incredibly valuable. Historically hard to exploit, recent advances in **Machine Learning (ML) and AI** have made it possible to analyze this data. For instance, ML algorithms can scan an unstructured audio file to extract its BPM, chord progression, and genre. Alternatively, adding manual tags (metadata) to a song file can transform it into semi-structured data, instantly making it easier to organize and search.
   
 <img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/c316496a-f724-466c-863d-f7d1b3898d9f" />
+
+
+
+# Exercises
+
+<img width="908" height="650" alt="image" src="https://github.com/user-attachments/assets/75ebafd9-4705-47b7-8617-047a8bf71554" />
