@@ -27,6 +27,36 @@ In this chapter, we shift our focus to data storage by exploring the three funda
 
 
 
+## The Role of SQL in Data Engineering
+
+SQL (Structured Query Language) is to databases what English is to pop music—fundamental and ubiquitous. It is the preferred language for querying **Relational Database Management Systems (RDBMS)**, where multiple tables are systematically connected.
+
+### Why SQL?
+* **Powerful Operations:** It allows you to access many records at once and easily group, filter, or aggregate them.
+* **Readable Syntax:** Its structure is very close to plain English, making it intuitive to write and understand.
+* **Varied Implementations:** There are several SQL dialects/implementations. Switching between them is like switching from American to British English—a few nuances change, but the core logic remains exactly the same.
+
+### How Different Roles Use SQL
+While both roles rely heavily on SQL, their day-to-day objectives differ:
+
+* **Data Engineers (Building & Maintaining):** Use SQL to define database architecture and write records. For example, using a `CREATE TABLE` command to build an `employees` table:
+  * Defining `employee_id` as an Integer (whole numbers).
+  * Defining `first_name` as VARCHAR (variable characters/text up to a specific limit).
+  * Defining `full_time` as a Boolean (logical true/false values).
+* **Data Scientists (Querying & Analyzing):** Use SQL to extract specific insights. For example, using a `SELECT` statement to pull the first and last names `FROM` the employees table `WHERE` the role title contains a keyword like "Data".
+
+### Understanding Database Schemas
+A single table is useful, but a database consists of many tables. The **database schema** is the blueprint that governs how all these tables are related to one another.
+
+**Spotflix Relational Schema Example:**
+* **Artists Table:** Contains a unique Artist ID, name, and biography.
+* **Albums Table:** Contains an Album ID and an Artist ID. *(Linked to the Artists table via Artist ID).*
+* **Songs Table:** Contains a Song ID and an Album ID. *(Linked to the Albums table via Album ID).*
+* **Playlists Table:** Contains a Playlist ID and a Song ID. *(Linked to the Songs table via Song ID).*
+
+Because these tables can be connected logically through shared IDs, they form a highly organized **relational** database that is extremely efficient to query.
+
+
 # Exercises
 
 <img width="908" height="650" alt="image" src="https://github.com/user-attachments/assets/75ebafd9-4705-47b7-8617-047a8bf71554" />
