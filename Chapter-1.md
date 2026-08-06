@@ -26,3 +26,8 @@ To illustrate how data engineers enable data scientists, consider their workflow
 
 * **The Data Engineer (Vivian):** Collects and stores customer, artist, and song data in their respective databases. She ensures the table structures are correct and builds data pipelines that automatically pull listening session data so everything remains up to date.
 * **The Data Scientist (Julian):** Uses the easily accessible data from Vivian's pipelines to understand listening patterns and build recommendation engines, without needing to spend excessive time on data preparation.
+
+<img width="920" height="693" alt="image" src="https://github.com/user-attachments/assets/9634f450-5d25-454d-a67a-50594e621750" />
+
+<img width="1915" height="920" alt="image" src="https://github.com/user-attachments/assets/6bba2c78-ae29-4985-b3bb-b6d7a3eb7bd9" />
+
