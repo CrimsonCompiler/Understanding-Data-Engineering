@@ -30,3 +30,5 @@ In this chapter, we shift our focus to data storage by exploring the three funda
 # Exercises
 
 <img width="908" height="650" alt="image" src="https://github.com/user-attachments/assets/75ebafd9-4705-47b7-8617-047a8bf71554" />
+<img width="1920" height="921" alt="image" src="https://github.com/user-attachments/assets/91090146-4fcf-47f3-b192-c5284dcd1063" />
+
