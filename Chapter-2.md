@@ -1,4 +1,4 @@
-## Chapter 2: Data Structures
+# Chapter 2: Data Structures
 
 In this chapter, we shift our focus to data storage by exploring the three fundamental types of data structures. Understanding these structures is crucial because they determine how data is stored, queried, and utilized.
 
