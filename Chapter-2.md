@@ -56,6 +56,9 @@ A single table is useful, but a database consists of many tables. The **database
 
 Because these tables can be connected logically through shared IDs, they form a highly organized **relational** database that is extremely efficient to query.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e1f795d0-cd30-4ae3-a34e-a84cac7618c2" />
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cdc00e1b-c8d1-49cc-bf16-86fe417f09e3" />
 
 # Exercises
 
