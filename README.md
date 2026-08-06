@@ -17,3 +17,6 @@ Chapter-1 [<a href="">Link</a>]
 
 Chapter-2 [<a href="">Link</a>]
 > Building on these foundations, Chapter 2 takes a structured approach to data storage. We will explore different data structures, the central role of SQL in data engineering, and various storage solutions.
+
+Chapter-3 [<a href="">Link</a>]
+> Once data is stored, it is ready to be processed. Chapter 3 dives into data processing methods and tools, covering key concepts such as scheduling, parallel computing, and cloud computing.
