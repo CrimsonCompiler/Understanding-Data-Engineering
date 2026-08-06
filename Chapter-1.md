@@ -1,3 +1,5 @@
+# Chapter 1
+
 ## Data Engineers vs. Data Scientists
 
 To prevent confusion between these two critical roles, it is essential to understand how they contrast and collaborate within the data workflow. In short, **data engineers lay the groundwork that makes data science activity possible**.
