@@ -15,8 +15,12 @@ In this chapter, we shift our focus to data storage by exploring the three funda
 * **Storage & Formats:** Typically stored in **NoSQL databases**. It heavily leverages file formats like **JSON, XML, or YAML**.
 * **Spotflix Example:** A *JSON file of favorite artists*. Every user record might contain a first name, last name, and a list of favorite artists. However, the exact number of artists can vary per user (one user might have 4, while another has 2). Relational databases struggle with this variability, but semi-structured formats handle it seamlessly.
 
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f52b9322-4a98-4148-84fc-c52ca39c35a8" />
+
 ### 3. Unstructured Data
 * **Characteristics:** Does not follow a predefined model and cannot be contained in a traditional row-and-column format. While it makes up the vast majority of data generated today, it is notoriously difficult to search and organize.
 * **Storage:** Usually stored in **Data Lakes**.
 * **Spotflix Example:** The actual media files—audio tracks, text lyrics, album cover pictures, artist profile photos, and music videos.
 * **Extracting Value:** Unstructured data is incredibly valuable. Historically hard to exploit, recent advances in **Machine Learning (ML) and AI** have made it possible to analyze this data. For instance, ML algorithms can scan an unstructured audio file to extract its BPM, chord progression, and genre. Alternatively, adding manual tags (metadata) to a song file can transform it into semi-structured data, instantly making it easier to organize and search.
+  
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/c316496a-f724-466c-863d-f7d1b3898d9f" />
