@@ -12,13 +12,13 @@
 
 ## Index
 
-Chapter-1 [<a href="">Link</a>]
+Chapter-1 [<a href="https://github.com/CrimsonCompiler/Understanding-Data-Engineering/blob/main/Chapter-1.md">Link</a>]
 > This first chapter will clarify what data engineering is; specifically, how it relates to big data and how a data engineer differs from a data scientist. We will also explore how data engineers build data pipelines, providing a solid introduction to the field.
 
-Chapter-2 [<a href="">Link</a>]
+Chapter-2 [<a href="https://github.com/CrimsonCompiler/Understanding-Data-Engineering/blob/main/Chapter-2.md">Link</a>]
 > Building on these foundations, Chapter 2 takes a structured approach to data storage. We will explore different data structures, the central role of SQL in data engineering, and various storage solutions.
 
-Chapter-3 [<a href="">Link</a>]
+Chapter-3 [<a href="https://github.com/CrimsonCompiler/Understanding-Data-Engineering/blob/main/Chapter-3.md">Link</a>]
 > Once data is stored, it is ready to be processed. Chapter 3 dives into data processing methods and tools, covering key concepts such as scheduling, parallel computing, and cloud computing.
 
 ## Core Concepts & Overview
