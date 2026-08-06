@@ -57,8 +57,38 @@ A single table is useful, but a database consists of many tables. The **database
 Because these tables can be connected logically through shared IDs, they form a highly organized **relational** database that is extremely efficient to query.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e1f795d0-cd30-4ae3-a34e-a84cac7618c2" />
-
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/cdc00e1b-c8d1-49cc-bf16-86fe417f09e3" />
+
+
+## Data Storage Architectures: Lakes, Warehouses, and Databases
+
+When building a data pipeline, understanding where and how data is stored is just as important as how it is processed. Here is a breakdown of the primary storage architectures used in data engineering.
+
+### Data Lakes vs. Data Warehouses
+
+While both store massive amounts of data, their purpose, structure, and target users differ significantly.
+
+| Feature | Data Lake | Data Warehouse |
+| :--- | :--- | :--- |
+| **State of Data** | Raw, unprocessed, and messy (exactly as ingested from sources). | Processed and specific for a defined, targeted use case. |
+| **Size** | Massive (often petabytes). | Smaller relative to lakes, but still very large. |
+| **Data Types** | Structured, semi-structured, and unstructured. | Strictly structured data. |
+| **Structure/Model** | No model enforced (highly cost-effective). | Enforces a structured model (more costly to manipulate). |
+| **Analytics** | Difficult to analyze; often requires deep learning to find hidden patterns. | Highly optimized for analytics to drive business decisions. |
+| **Primary Users** | Data Scientists (for real-time big data analytics). | Data Analysts (for ad-hoc, read-only queries and aggregations). |
+
+### The Importance of a Data Catalog
+
+Because a Data Lake does not enforce any structure, it can easily become an unmanageable "data swamp" without proper oversight. A **Data Catalog** acts as the source of truth to compensate for this lack of structure.
+
+* **Tracks Metadata:** It strictly records where data comes from, how it is used, who is responsible for maintaining it, and its update frequency.
+* **Ensures Data Governance:** Manages the availability, usability, integrity, and security of the data.
+* **Guarantees Reproducibility:** Allows teams to reproduce analytical processes from the very beginning in case something unexpected happens.
+* **Eliminates Tribal Knowledge:** Makes data discovery autonomous and scalable by removing the need to constantly rely on a human source for information.
+
+### What is a Database?
+
+The term "Database" is a very broad, general concept defined simply as organized data stored and accessed on a computer. In this context, a Data Warehouse is just a highly specialized type of database designed specifically for analytics and aggregation.
 
 # Exercises
 
@@ -68,5 +98,7 @@ Because these tables can be connected logically through shared IDs, they form a 
 <img width="890" height="752" alt="image" src="https://github.com/user-attachments/assets/7bd9340a-861f-4760-8d62-7c89c7fdbaa8" />
 <img width="892" height="441" alt="image" src="https://github.com/user-attachments/assets/66cf76dd-cb5c-4b1f-af72-3c393129f32e" />
 <img width="1920" height="920" alt="image" src="https://github.com/user-attachments/assets/f77f4ec0-17d6-4556-962a-9261d0ae999c" />
+<img width="1104" height="744" alt="image" src="https://github.com/user-attachments/assets/5b4dc4ec-90e4-44d9-8bbe-26aa4f4f5663" />
+<img width="1920" height="916" alt="image" src="https://github.com/user-attachments/assets/24b25ccd-f5f1-4c23-85bd-78bcc8303369" />
 
 
