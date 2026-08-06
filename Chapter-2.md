@@ -64,4 +64,9 @@ Because these tables can be connected logically through shared IDs, they form a 
 
 <img width="908" height="650" alt="image" src="https://github.com/user-attachments/assets/75ebafd9-4705-47b7-8617-047a8bf71554" />
 <img width="1920" height="921" alt="image" src="https://github.com/user-attachments/assets/91090146-4fcf-47f3-b192-c5284dcd1063" />
+<img width="924" height="584" alt="image" src="https://github.com/user-attachments/assets/8ee0d1e3-ca45-46a9-966e-1b45634ea46a" />
+<img width="890" height="752" alt="image" src="https://github.com/user-attachments/assets/7bd9340a-861f-4760-8d62-7c89c7fdbaa8" />
+<img width="892" height="441" alt="image" src="https://github.com/user-attachments/assets/66cf76dd-cb5c-4b1f-af72-3c393129f32e" />
+<img width="1920" height="920" alt="image" src="https://github.com/user-attachments/assets/f77f4ec0-17d6-4556-962a-9261d0ae999c" />
+
 
